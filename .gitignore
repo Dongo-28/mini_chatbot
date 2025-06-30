@@ -1,0 +1,45 @@
+# ───────────── Python / Pip ─────────────
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+
+# ───────────── Ambientes virtuais ───────
+.venv/
+venv/
+env/
+
+# ───────────── Modelos e pesos LLM ──────
+models/
+*.gguf
+*.bin
+*.pt
+*.onnx
+*.dll
+*.lib
+
+# ───────────── Bases vetoriais ──────────
+vectorstore/
+*.faiss
+*.pkl
+
+# ───────────── Dados brutos ─────────────
+data/
+
+# ───────────── Notebooks & checkpoints ──
+.ipynb_checkpoints/
+
+# ───────────── IDEs / Editor ────────────
+.vscode/
+.vs/
+.idea/
+
+# ───────────── Logs / temporários ───────
+*.log
+*.tmp
+*.cache
+
+# ───────────── Sistema operativo ────────
+.DS_Store
+Thumbs.db
+desktop.ini
