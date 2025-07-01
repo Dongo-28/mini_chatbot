@@ -37,14 +37,23 @@ A técnica RAG permite que um modelo de linguagem (LLM) **não invente respostas
 ## 🗂️ Estrutura do projeto
 
 mini_chatbot_rag/
+
 ├── app.py # Ponto de entrada principal
+
 ├── data/ # Pasta com documentos (.pdf, .txt, .md)
+
 ├── vectorstore/ # Vector store FAISS (gerado após ingestão)
+
 ├── models/llama/ # Modelo GGUF do Llama
+
 ├── utils/
+
 │ └── preprocess.py # Script que carrega e divide documentos
+
 ├── .env # Variáveis de ambiente
+
 ├── requirements.txt
+
 └── README.md
 
 ---
